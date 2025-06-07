@@ -10,12 +10,19 @@
 <body>
     <div class="dashboard-container">
         <h2>Bienvenue, <span id="welcome"></span></h2>
-        <p>Solde : <span id="balance">0</span> €</p>
+        <p>Solde actuel : <span id="balance">0</span> €</p>
 
         <div>
             <input type="number" id="amount" placeholder="Montant">
             <button onclick="deposit()">Déposer</button>
             <button onclick="withdraw()">Retirer</button>
+        </div>
+
+        <div>
+            <h3>Statut des transactions</h3>
+            <ul id="transaction-status">
+                <!-- Liste des transactions sera ajoutée ici -->
+            </ul>
         </div>
 
         <button onclick="logout()">Se déconnecter</button>
