@@ -1,0 +1,26 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord - Banque en ligne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Bienvenue, <span id="welcome"></span></h2>
+        <p>Solde : <span id="balance">0</span> €</p>
+
+        <div>
+            <input type="number" id="amount" placeholder="Montant">
+            <button onclick="deposit()">Déposer</button>
+            <button onclick="withdraw()">Retirer</button>
+        </div>
+
+        <button onclick="logout()">Se déconnecter</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
