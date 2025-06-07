@@ -9,7 +9,7 @@ body {
     background-color: #f4f4f4;
 }
 
-h2 {
+h2, h3 {
     color: #333;
 }
 
@@ -38,10 +38,19 @@ button:hover {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 350px;
     text-align: center;
 }
 
 .dashboard-container {
-    width: 350px;
+    width: 400px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
 }
